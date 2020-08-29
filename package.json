@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "true"
+    "build": "parcel build src/index.html -d public"
   },
   "devDependencies": {
     "typescript": "^3.9.7"
