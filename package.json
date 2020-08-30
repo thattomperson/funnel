@@ -1,14 +1,19 @@
 {
   "scripts": {
+    "start": "parcel serve src/index.html -d public -p $PORT",
     "build": "parcel build src/index.html -d public"
   },
   "devDependencies": {
+    "@vercel/node": "^1.8.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@vercel/node": "^1.7.4",
-    "parcel-bundler": "^1.12.4",
+    "normalize.css": "^8.0.1",
+    "parcel-plugin-svelte": "^4.0.6",
     "pusher": "^3.0.1",
-    "pusher-js": "^7.0.0"
+    "pusher-js": "^7.0.0",
+    "svelte": "^3.24.1"
   }
 }
